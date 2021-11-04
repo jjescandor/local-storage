@@ -27,7 +27,7 @@ const createStudentElement = ({ name, age, roll }) => {
 
     studentName.textContent = `Student name: ${name}`;
     studentAge.textContent = `Student age: ${age}`;
-    studentRoll.textContent = `Student roll: ${roll}`;
+    studentRoll.textContent = `Student ID: ${roll}`;
 
     studentDiv.append(studentName, studentAge, studentRoll);
     studentsContainer.appendChild(studentDiv);
